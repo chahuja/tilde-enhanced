@@ -6,18 +6,25 @@ const CONFIGObj = {
    * Commands without a category don't show up in the help menu.
    * Update line 11 and 13 if you prefer using Google.
    */
-  commands: [
+    commands: [
+    {
+      name: 'Google',
+      key: '*',
+      url: 'https://google.com',
+      search: '/search?q={}',
+      color: '#DE5833',
+    },
     {
       name: 'Duckduckgo',
-      key: '*',
+      key: 'h',
       url: 'https://duckduckgo.com',
       search: '/?q={}',
       color: '#DE5833',
     },
     {
       category: 'General',
-      name: 'Mail',
-      key: 'm',
+      name: 'PMail',
+      key: 'm0',
       url: 'https://gmail.com',
       search: '/#search/text={}',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
@@ -25,6 +32,26 @@ const CONFIGObj = {
       quickLaunch: true,
     },
     {
+      category: 'General',
+      name: 'CMail',
+      key: 'm1',
+      url: 'https://mail.google.com/mail/u/1/#inbox',
+      search: '/#search/text={}',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'mail',
+      quickLaunch: true,
+    },
+    {
+      category: 'General',
+      name: 'Calendar',
+      key: 'c',
+      url: 'https://calendar.google.com/calendar/b/1/r',
+      search: '/#search/text={}',
+      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      icon: 'calendar',
+      quickLaunch: true,
+    },
+   {
       category: 'General',
       name: 'Drive',
       key: 'd',
@@ -34,7 +61,7 @@ const CONFIGObj = {
       icon: 'drive',
       quickLaunch: false,
     },
-    {
+/*    {
       category: 'General',
       name: 'LinkedIn',
       key: 'l',
@@ -43,7 +70,7 @@ const CONFIGObj = {
       color: 'linear-gradient(135deg, #006CA4, #0077B5)',
       icon: 'linkedin',
       quickLaunch: true,
-    },
+    },*/
     {
       category: 'Tech',
       name: 'GitHub',
@@ -64,7 +91,7 @@ const CONFIGObj = {
       icon: 'stackoverflow',
       quickLaunch: true,
     },
-    {
+/*    {
       category: 'Tech',
       name: 'Ars Technica',
       key: 'a',
@@ -73,7 +100,7 @@ const CONFIGObj = {
       color: 'linear-gradient(135deg, #FF4E00, #B83800)',
       icon: 'arstechnica',
       quickLaunch: false,
-    },
+    },*/
     {
       category: 'Fun',
       name: 'YouTube',
@@ -95,6 +122,16 @@ const CONFIGObj = {
     },
     {
       category: 'Fun',
+      name: 'Prime-Video',
+      key: 'p',
+	url: 'https://www.amazon.com/gp/video/storefront/ref=topnav_storetab_atv?node=2858778011',
+      search: '/find?ref_=nv_sr_fn&q={}',
+      color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
+      icon: 'prime',
+      quickLaunch: false,
+    },
+/*    {
+      category: 'Fun',
       name: 'Twitch',
       key: 't',
       url: 'https://www.twitch.tv',
@@ -102,7 +139,7 @@ const CONFIGObj = {
       color: 'linear-gradient(135deg, #6441a5, #4b367c)',
       icon: 'twitch',
       quickLaunch: false,
-    },
+    },*/
     {
       category: 'Other',
       name: 'Reddit',
@@ -122,7 +159,7 @@ const CONFIGObj = {
       icon: 'twitter',
       quickLaunch: true,
     },
-    {
+/*    {
       category: 'Other',
       name: 'IMDb',
       key: 'i',
@@ -131,7 +168,7 @@ const CONFIGObj = {
       color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
       icon: 'imdb',
       quickLaunch: false,
-    },
+    },*/
   ],
 
   /**
