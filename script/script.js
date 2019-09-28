@@ -79,7 +79,7 @@ const CONFIGObj = {
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
       icon: 'github',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Tech',
@@ -89,7 +89,7 @@ const CONFIGObj = {
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #53341C, #F48024)',
       icon: 'stackoverflow',
-      quickLaunch: true,
+      quickLaunch: false,
     },
 /*    {
       category: 'Tech',
@@ -157,7 +157,7 @@ const CONFIGObj = {
       url: 'https://twitter.com',
       color: 'linear-gradient(135deg, #C0A886, #E2DBC8)',
       icon: 'twitter',
-      quickLaunch: true,
+      quickLaunch: false,
     },
 /*    {
       category: 'Other',
