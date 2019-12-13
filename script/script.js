@@ -15,7 +15,7 @@ const CONFIGObj = {
       color: '#DE5833',
     },
     {
-      name: 'Duckduckgo',
+      name: 'Duckduckgo (h)',
       key: 'h',
       url: 'https://duckduckgo.com',
       search: '/?q={}',
@@ -23,7 +23,7 @@ const CONFIGObj = {
     },
     {
       category: 'General',
-      name: 'PMail',
+      name: 'PMail (m0)',
       key: 'm0',
       url: 'https://gmail.com',
       search: '/#search/text={}',
@@ -33,7 +33,7 @@ const CONFIGObj = {
     },
     {
       category: 'General',
-      name: 'CMail',
+      name: 'CMail (m1)',
       key: 'm1',
       url: 'https://mail.google.com/mail/u/1/#inbox',
       search: '/#search/text={}',
@@ -43,7 +43,7 @@ const CONFIGObj = {
     },
     {
       category: 'General',
-      name: 'Calendar',
+      name: 'Calendar (c)',
       key: 'c',
       url: 'https://calendar.google.com/calendar/b/1/r',
       search: '/#search/text={}',
@@ -53,14 +53,25 @@ const CONFIGObj = {
     },
    {
       category: 'General',
-      name: 'Drive',
+      name: 'Drive (d)',
       key: 'd',
       url: 'https://drive.google.com',
       search: '/drive/search?q={}',
       color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
       icon: 'drive',
       quickLaunch: false,
+   },
+	{
+	    category: 'General',
+	    name: 'Trello (t)',
+	    key: 't',
+	    url: 'https://trello.com/b/FIJzGFBp/groot',
+	    search: '/search?q={}',
+	    color: '#DE5833',
+	    icon: 'drive',
+	    quickLaunch: false
     },
+
 /*    {
       category: 'General',
       name: 'LinkedIn',
@@ -73,7 +84,7 @@ const CONFIGObj = {
     },*/
     {
       category: 'Tech',
-      name: 'GitHub',
+      name: 'GitHub (g)',
       key: 'g',
       url: 'https://github.com',
       search: '/search?q={}',
@@ -83,7 +94,7 @@ const CONFIGObj = {
     },
     {
       category: 'Tech',
-      name: 'StackOverflow',
+      name: 'StackOverflow (s)',
       key: 's',
       url: 'https://stackoverflow.com',
       search: '/search?q={}',
@@ -103,7 +114,7 @@ const CONFIGObj = {
     },*/
     {
       category: 'Fun',
-      name: 'YouTube',
+      name: 'YouTube (y)',
       key: 'y',
       url: 'https://youtube.com',
       search: '/results?search_query={}',
@@ -113,7 +124,7 @@ const CONFIGObj = {
     },
     {
       category: 'Fun',
-      name: 'Netflix',
+      name: 'Netflix (n)',
       key: 'n',
       url: 'https://www.netflix.com',
       color: 'linear-gradient(135deg, #E50914, #CB020C)',
@@ -122,7 +133,7 @@ const CONFIGObj = {
     },
     {
       category: 'Fun',
-      name: 'Prime-Video',
+      name: 'Prime-Video (p)',
       key: 'p',
 	url: 'https://www.amazon.com/gp/video/storefront/ref=topnav_storetab_atv?node=2858778011',
       search: '/find?ref_=nv_sr_fn&q={}',
@@ -142,7 +153,7 @@ const CONFIGObj = {
     },*/
     {
       category: 'Other',
-      name: 'Reddit',
+      name: 'Reddit (r)',
       key: 'r',
       url: 'https://reddit.com',
       search: '/search?q={}',
@@ -152,7 +163,7 @@ const CONFIGObj = {
     },
     {
       category: 'Other',
-      name: 'Twitter',
+      name: 'Twitter (o)',
       key: 'o',
       url: 'https://twitter.com',
       color: 'linear-gradient(135deg, #C0A886, #E2DBC8)',
